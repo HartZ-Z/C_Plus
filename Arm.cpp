@@ -6,7 +6,7 @@ class arm
   private:
     int n;
   public:
-   void Arm (int x )
+    arm (int x)
     {
       n=x;
     }
@@ -27,12 +27,12 @@ class arm
 
       }
     if (n == s){
-    cout<<"\n Given number is armstrong: "<<n ;
+    cout<<"\n Given number is armstrong: " <<n ;
 
     }
 
     else {
-      cout<<"\n Given number is not armstrong: "<<n ;
+      cout<<"\n Given number is not armstrong: " <<n ;
 }
 
 }
@@ -40,11 +40,10 @@ class arm
 };
 
 int main (){
-  arm a;
   int n;
   cout<<"\n Enter a number you want to check: ";
   cin>>n;
-  a.Arm(n);
+  arm a(n);
   a.check();
 
 }

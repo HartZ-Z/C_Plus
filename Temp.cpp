@@ -3,8 +3,7 @@ using namespace std;
 
 class converter {
   private:
-  float celcius;
-  float fehrenheit;
+  float celcius,fehrenheit;
   public:
     void get_data(){
       cout<<"\n Enter you temperature in celcius: ";
